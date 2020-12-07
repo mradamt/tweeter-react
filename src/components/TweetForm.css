@@ -1,0 +1,48 @@
+/* .new-tweet {
+  display: none;
+} */
+
+#tweet-text {
+  width: 100%;
+  border: none;
+  border-bottom: 4px solid black;
+  background-color: inherit;
+  resize: none;
+  padding-top: 1em;
+  padding: 0.5em;
+}
+
+
+.new-tweet form {
+  width: 100%;
+  font-weight: 700;
+}
+
+#tweet-validation-msg {
+  font-weight: 300;
+  color: #ff0033;
+  font-size: 0.8em;
+  padding-top: 0.5em;
+  padding-left: 0.5em;
+  font-style: italic;
+}
+
+.new-tweet form footer {
+  font-family: 'Bungee', cursive;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 0.5em;
+  padding-right: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.new-tweet button {
+  color: #fff;
+  background-color: #4056A1;
+  padding-left: 0.3em;
+  padding-right: 0.3em;
+}
+
+#tweet-text:focus, .new-tweet button:focus {
+  outline: none;
+}
